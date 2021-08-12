@@ -1,0 +1,101 @@
+:root {
+    --header-footer-color : #000000DE
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(../ProductSansBold.ttf);
+}
+
+.main{
+    height:300px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+  
+.main__logo{
+    font-family: 'mainFont';
+    font-size: 90px;
+}
+  
+.google__blue{
+    color: #4285F4;
+}
+  
+.google__red{
+    color:#DB4437;
+}
+  
+.google__yellow{
+    color:#F4B400;
+}
+  
+.google__green{
+    color:#0F9D58;
+}
+  
+#search__bar{
+    margin-top: 20px;
+    height:43px;
+    width:575px;
+    border:0.5px solid #d3d3d3;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#search__bar:hover{
+    transition: 0.2s ease;
+    box-shadow: 2px 0px 2px 2px #e6e6e6;
+}
+@media screen and (max-width:600px){
+    #search__bar{
+        width : 100vw;
+    }
+}  
+#search__icon{
+    font-size: 20px;
+    color:#7b8086;
+    margin-left:10px;
+}
+  
+#search__input{
+    margin-left: 10px;
+    outline: none;
+    width:87%;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+}
+  
+#buttons{
+    margin-top: 30px;
+    width:300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+#buttons button{
+    font-size: 15px;
+    color: #5f6368;
+    padding:9px;
+    border: none;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border:1px solid transparent;
+}
+  
+#buttons button:hover{
+    transition: 0.2s ease;
+    border:1px solid #c3c5c7;
+    box-shadow: 1px 0px 1px 1px #e6e6e6;
+}

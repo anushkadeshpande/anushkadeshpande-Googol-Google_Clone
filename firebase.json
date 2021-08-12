@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "searchanything",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
